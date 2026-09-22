@@ -4,7 +4,7 @@ Site separado para enviar ao APK comandos de bloqueio remoto por aparelho.
 
 ## Comandos enviados
 
-Os comandos são gravados no Realtime Database em `SNOOPY_REMOTE_COMMANDS/{deviceId}`.
+Os comandos são gravados no Realtime Database em `SNOOPY_REMOTE_COMMANDS/{accessKey}`.
 
 ```json
 {
@@ -19,7 +19,7 @@ Os comandos são gravados no Realtime Database em `SNOOPY_REMOTE_COMMANDS/{devic
 
 ## Limitações do Android
 
-O site não consegue criar ou controlar uma VPN diretamente. O APK precisa receber o comando, ter autorização da VPN do Android e executar a filtragem localmente. A primeira autorização sempre exige confirmação do usuário no aparelho. O APK deve validar o identificador do aparelho e consumir cada `requestId` uma única vez.
+O site não consegue criar ou controlar uma VPN diretamente. O APK precisa receber o comando, ter autorização da VPN do Android e executar a filtragem localmente. A primeira autorização sempre exige confirmação do usuário no aparelho. O APK deve validar o chave de acesso do aparelho e consumir cada `requestId` uma única vez.
 
 ## Publicação
 
