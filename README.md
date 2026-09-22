@@ -27,4 +27,8 @@ A página pode ser publicada pelo GitHub Pages em:
 
 `https://guif63265-afk.github.io/SNOOPYOBB-Remote-Control/`
 
+Como o GitHub Pages ainda não está habilitado na conta, a versão online está disponível em:
+
+`https://raw.githack.com/guif63265-afk/SNOOPYOBB-Remote-Control/main/index.html`
+
 Antes de usar em produção, configure regras do Firebase para impedir que qualquer pessoa escreva comandos para qualquer aparelho. O ideal é usar autenticação e regras por usuário/aparelho, não deixar o nó de comandos aberto.
